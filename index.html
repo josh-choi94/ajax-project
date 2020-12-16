@@ -17,15 +17,40 @@
     <header></header>
     <main>
       <div class="container">
-        <div class="content-row">
-          <div class="content-wrapper">
-            <input
-              type="search"
-              id="search"
-              name="search"
-              onsearch=""
-              placeholder="Search for a player..."
-            />
+        <div data-view="home-page" class="view hidden">
+          <div class="content-row">
+            <div class="content-wrapper">
+              <input
+                type="search"
+                id="search"
+                name="search"
+                onsearch=""
+                placeholder="Search for a player..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-view="search-page">
+        <div class="container">
+          <div class="row">
+            <div class="column">
+              <input
+                type="search"
+                id="search"
+                name="search"
+                onsearch=""
+                placeholder="Search for a player..."
+              />
+            </div>
+            <div class="column">
+              <p>Player Name</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="lower-column">
+              <p>Player Statistics</p>
+            </div>
           </div>
         </div>
       </div>
