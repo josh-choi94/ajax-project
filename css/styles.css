@@ -22,3 +22,25 @@
     color:white;
     font-size: 25px;
 }
+
+[data-view="home-page"]{
+  display: none;
+
+}
+
+.top-row{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.lower-row{
+  display:flex;
+}
+
+.upper-column {
+  width: 500px;
+
+  
+}
